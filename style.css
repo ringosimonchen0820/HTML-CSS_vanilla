@@ -1,0 +1,296 @@
+  body {
+    color: #926239;
+    font-family: sans-serif;
+    box-sizing: border-box;
+  }
+  
+  .intro-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+  }
+  
+  .imgcake img {
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .title {
+    background-color:  #926239;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  @media only screen 
+  and (min-device-width : 320px) 
+  and (max-device-width : 480px) {
+    .title {
+      font-size: 50%;
+    }
+  }
+  
+  .preptime {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  
+  @media only screen 
+  and (min-device-width : 320px) 
+  and (max-device-width : 480px) {
+    .preptime {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
+  .content-ingre-box {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  
+  @media only screen 
+  and (min-device-width : 320px) 
+  and (max-device-width : 480px) {
+    .content-ingre-box {
+      flex-direction: column;
+      align-items: center;
+      margin-top: 0px;
+    }
+  }
+  
+  .content-intro {
+    width: 40%;
+    max-width:45%;
+    padding:50px;
+  }
+  
+  .content-intro h2 {
+    text-align: center;
+  }
+  
+  .content-intro p {
+    text-align: justify;
+  }
+  
+  @media only screen 
+  and (min-device-width : 320px) 
+  and (max-device-width : 480px) {
+    .content-intro {
+      max-width: 90%;
+      width: 100%;
+      align-items: center;
+      padding: 50px;
+    }
+  }
+  
+  @media only screen 
+  and (min-device-width : 320px) 
+  and (max-device-width : 480px) {
+    .content-intro h2 {
+      display: none;
+    }
+  }
+  
+  #hopper-pic {
+    text-align: center;
+  }
+  
+  @media only screen 
+  and (min-device-width : 320px) 
+  and (max-device-width : 480px) {
+    #hopper-pic {
+      display: none;
+    }
+  }
+  
+  @media only screen 
+  and (min-device-width : 768px) 
+  and (max-device-width : 1024px) {
+    #hopper-pic {
+      display: none;
+    }
+  }
+  
+  @media only screen 
+  and (min-device-width : 320px) 
+  and (max-device-width : 480px) {
+    #hopper-bio {
+      font-size: 100%;
+      text-align: center;
+    }
+  }
+
+  @media only screen 
+  and (min-device-width : 768px) 
+  and (max-device-width : 1024px) {
+    #hopper-bio {
+      font-size: 115%;
+      text-align: left;
+    }
+  }
+  
+  #ingredigent {
+    padding:50px;
+    background: #f4f4f4;
+    border: 10px solid #926239;
+    box-shadow:0 5px 15px rgba(0,0,0,.25);       
+  }
+  
+  #ingredigent h2 {
+    text-align: center;
+  }
+  
+  @media only screen 
+  and (min-device-width : 320px) 
+  and (max-device-width : 480px) {
+    #ingredigent h2 {
+      font-size: 250%;
+      margin-top: 0px;
+      margin-bottom: 20px;
+    }
+  }
+  
+  #ingredigent div {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  
+  @media only screen 
+  and (min-device-width : 320px) 
+  and (max-device-width : 480px) {
+    #ingredigent div {
+      text-align: center;
+    }
+  }
+  
+  #directions {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-size: 350%
+  }
+
+  @media only screen 
+  and (min-device-width : 320px) 
+  and (max-device-width : 480px) {
+    #directions {
+      margin-top: 50px;
+      margin-bottom: 0px;
+      font-size: 250%;
+    }
+  }
+  
+  .steps-container {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  
+  @media only screen 
+  and (min-device-width : 320px) 
+  and (max-device-width : 480px) {
+    .steps-container {
+      flex-direction: column;
+    }
+  }
+  
+  .card {
+    max-width: 30%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+    background-color: #926239;
+    border: 10px solid white;
+  }
+  
+  @media only screen 
+  and (min-device-width : 320px) 
+  and (max-device-width : 480px) {
+    .card {
+      flex-direction: column;
+      max-width: 100%;
+    }
+  }
+
+  @media only screen 
+  and (min-device-width : 768px) 
+  and (max-device-width : 1024px) { 
+    .card {
+      max-width: 40%;
+    }
+  }
+  
+  .content {
+    max-height: 50%;
+  }
+  
+  .content h2 {
+    color: white;
+  }
+
+  @media only screen 
+  and (min-device-width : 320px) 
+  and (max-device-width : 480px) {
+    .content h2 {
+      margin-bottom: 0px;
+    }
+  }
+  
+  .content p {
+    color: white;
+    font-size: 90%;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  @media only screen 
+  and (min-device-width : 320px) 
+  and (max-device-width : 480px) {
+    .content p {
+      font-size: 50%;
+
+    }
+  }
+  
+  .imgBox {
+    max-height: 45%;
+  }
+  
+  .imgBox img {
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  @media only screen 
+  and (min-device-width : 320px) 
+  and (max-device-width : 480px) {
+    .imgBox img {
+      width: unset;
+    }
+  }
+  
+  footer {
+    margin-top: 20px;
+  }
+  
+  footer p {
+    padding: 20px;
+    text-align: center;
+  }
